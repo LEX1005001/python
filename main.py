@@ -7,8 +7,8 @@ while num!=0:
     num//10
     count+=1
     sum+=d
-if d==0:
-    count0+=1
+    if d==0:
+        count0+=1
 print("Сумма чисел: ",sum)
 print("Колличество чисел: ",count)
 print("Среднее арифм: ",sum/count)
